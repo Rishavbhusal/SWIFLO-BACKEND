@@ -5,14 +5,16 @@ package_manager = "yarn"
 resolution = true
 skip-lint = false
 
-[programs.localnet]
-swiflo_backend = "BANUjtphR7VU94S1q6fSpZTHhxj7foBqQQKt8uwCM9gY"
+[programs.devnet]
+swiflo_liquidity_vault = "EqjvuWUyH9A1iz3voRpN58MErsB2e7D4fa5S1LWpsgKa"
+swiflo_remittance_pool = "6M9yzRSkn5c94dAvE8v9YJMGyoqHQKEurDTrM8AerQ56"
+swiflo_rate_oracle = "3Zy46BADoCvhCad3xp1wHwiXMytbEAwy73E5G5mfvSUV"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
